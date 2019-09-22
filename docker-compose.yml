@@ -1,0 +1,7 @@
+version: '2'
+services:
+  gojava:
+    build: .
+    ports:
+      - "9080:9080"
+
